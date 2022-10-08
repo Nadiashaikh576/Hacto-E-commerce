@@ -100,15 +100,15 @@ const Footer = () => {
     </div>
 
     <div className='bg-extrashade p-4'>
-        <div className='wrapper2 flex justify-between items-center'>
+        <div className='wrapper2 lg:flex justify-between items-center '>
             <div>
-                <h4 className='font-lato text-extragray'>©Webecy - All Rights Reserved</h4>
+                <h4 className='font-lato text-center text-extragray'>©Webecy - All Rights Reserved</h4>
             </div>
-            <div className='flex gap-4 '>
+            <div className='flex items-center gap-4 '>
                 {footerIcon.map((item) => {
-                    return <div className='hidden lg:block'>
+                    return <div className='hidden lg:block bg-navy p-2 h-8 rounded-full'>
                         <Link href="">
-                            <a className='bg-navy rounded-full p-1 text-white' href="">{item.icon}</a>
+                            <a className=' text-white' href="">{item.icon}</a>
                         </Link>
                     </div>
                 })}
