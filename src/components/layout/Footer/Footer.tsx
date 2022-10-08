@@ -104,13 +104,13 @@ const Footer = () => {
             <div>
                 <h4 className='font-lato text-extragray'>©Webecy - All Rights Reserved</h4>
             </div>
-            <div className='flex gap-4'>
+            <div className='flex gap-4 '>
                 {footerIcon.map((item) => {
-                    return <>
+                    return <div className='hidden lg:block'>
                         <Link href="">
                             <a className='bg-navy rounded-full p-1 text-white' href="">{item.icon}</a>
                         </Link>
-                    </>
+                    </div>
                 })}
             </div>
         </div>
