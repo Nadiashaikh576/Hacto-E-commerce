@@ -14,15 +14,15 @@ export interface NavdataProps {
       },
       {
         id: 2,
-        title: 'Pages',
+        title: 'Demo',
         type: 'link',
-        href: '/pages',
+        href: '/demo',
       },
       {
         id: 3,
         title: 'Products',
         type: 'link',
-        href: '/products',
+        href: '/shopleft',
       },
       {
         id: 4,
@@ -34,7 +34,7 @@ export interface NavdataProps {
         id: 5,
         title: 'Shop',
         type: 'link',
-        href: '/shop',
+        href: '/shoplist',
       },
       {
         id: 5,
