@@ -4,7 +4,7 @@ import Top from './Top/Top';
 import DasktopNavbar from './Navbar/DasktopNavbar/DasktopNavbar';
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer/Footer';
-import Temporary from './Temporary/Temporary';
+// import Temporary from './Temporary/Temporary';
 
 const ToggleButton = dynamic(
   () => import('@components/shared/buttons/ToggleButton/ToggleButton'),
@@ -16,7 +16,7 @@ const ToggleButton = dynamic(
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div className='relative'>
-      <Temporary/>
+      {/* <Temporary/> */}
       <Top/>
       <Navbar/>
       {children}

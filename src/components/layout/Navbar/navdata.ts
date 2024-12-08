@@ -14,7 +14,7 @@ export interface NavdataProps {
       },
       {
         id: 2,
-        title: 'Demo',
+        title: 'pages',
         type: 'link',
         href: '/demo',
       },
